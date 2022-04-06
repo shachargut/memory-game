@@ -1,0 +1,32 @@
+.card{
+        font-size: 40px;
+        border: 5px solid rgb(44, 44, 91);
+        border-radius: 30px;
+        padding: 20px;
+    
+}
+.card:hover{
+    cursor: pointer;
+    color: rgb(91, 170, 84);
+    background-color: rgb(113, 113, 65);
+    /* background-image: url("image/WhatsApp\ Image\ 2022-04-06\ at\ 08.39.57\ \(2\).jpeg") ; */
+}
+.card:active{
+    color: blue;
+}
+#board{
+         display:grid;
+         gap: 10px;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         padding: 20px;
+         justify-content: space-around; 
+         border: 10px solid rgb(141, 38, 136);
+         flex-wrap: wrap;
+         justify-items: center;
+}
+body{
+    background-image: url("image/tree.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}

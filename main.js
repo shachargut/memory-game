@@ -1,4 +1,6 @@
-const cards = ['A','B','C','A','B','C']; 
+// document.addEventListener('DOM')
+
+const cards = ['A','B','C','A','B','C','D','D']; 
 const board = document.getElementById("board");
 
 function createCard(idx){
